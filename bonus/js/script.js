@@ -17,7 +17,8 @@ console.log('Numero preferito utente', numeroUtente);
 
 let piuCinque = numeroUtente + 5;
 
-let infoUtente = `${nomeUtente}${cognomeUtente}${coloreUtente}${piuCinque}`
-console.log(infoUtente)
+let infoUtente = `${nomeUtente}${cognomeUtente}${coloreUtente}${piuCinque}`;
+console.log(infoUtente);
 
-document.getElementById('mio_id').innerHTML = infoUtente
+document.getElementById('mio_id').innerHTML = infoUtente;
+
