@@ -13,10 +13,11 @@ let coloreUtente = prompt('Inserisci il tuo colore preferito');
 console.log('Colore preferito utente', coloreUtente); 
 
 let numeroUtente = parseInt(prompt('Inserisci il tuo numero preferito'));
-console.log('Numero preferito utente', numeroUtente + 5); 
+console.log('Numero preferito utente', numeroUtente); 
 
+let piuCinque = numeroUtente + 5;
 
-let infoUtente = `${nomeUtente}${cognomeUtente}${coloreUtente}${numeroUtente}`
+let infoUtente = `${nomeUtente}${cognomeUtente}${coloreUtente}${piuCinque}`
 console.log(infoUtente)
 
 document.getElementById('mio_id').innerHTML = infoUtente
