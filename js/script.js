@@ -13,7 +13,7 @@ console.log('Cognome utente', cognomeUtente);
 let coloreUtente = prompt('Inserisci il tuo colore preferito');
 console.log('Colore preferito utente', coloreUtente); 
 
-let infoUtente = `${nomeUtente}${cognomeUtente}${coloreUtente} 21`
+let infoUtente = `${nomeUtente}${cognomeUtente}${coloreUtente} 21`;
 console.log(infoUtente)
 
-document.getElementById('mio_id').innerHTML = infoUtente
+document.getElementById('mio_id').innerHTML = infoUtente;
